@@ -1,0 +1,42 @@
+body {
+    background-color: #f0f2f5;
+    color: #333;
+    font-family: Arial, sans-serif;
+    
+    /* Centering the card */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card {
+    background-color: #ffffff;
+    color: #2c3e50;
+    
+    width: 350px;
+    border: 2px solid #3498db;
+    padding: 20px;
+    margin: 20px;
+    
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #2980b9;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #7f8c8d;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.5;
+    font-size: 15px;
+}

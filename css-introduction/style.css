@@ -1,0 +1,19 @@
+/* Applying only Text color, Background color, and Font size as per requirements */
+
+body {
+    background-color: #0f172a; /* Background color */
+    color: #f8fafc;            /* Text color */
+    font-size: 18px;           /* Font size */
+    font-family: sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 48px;           /* Font size */
+    color: #38bdf8;            /* Text color */
+}
+
+p {
+    font-size: 20px;           /* Font size */
+    color: #94a3b8;            /* Text color */
+}
