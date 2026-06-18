@@ -1,0 +1,71 @@
+:root {
+  --bg: #eef2f6;
+  --card: #ffffff;
+  --text: #14213d;
+  --muted: #4b5563;
+  --border: #d1d5db;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.team-section {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.team-section h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: clamp(2rem, 2.5vw, 2.75rem);
+}
+
+.team-cards {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.team-card {
+  background-color: var(--card);
+  padding: 1.75rem;
+  border-radius: 20px;
+  border: 1px solid var(--border);
+  box-shadow: 0 20px 40px rgba(15, 23, 42, 0.08);
+  flex: 1 1 280px;
+  min-width: 240px;
+}
+
+.team-card h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+}
+
+.role {
+  margin: 0 0 1rem;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.description {
+  margin: 0;
+  line-height: 1.75;
+  color: #334155;
+}
+
+@media (max-width: 768px) {
+  .team-cards {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
