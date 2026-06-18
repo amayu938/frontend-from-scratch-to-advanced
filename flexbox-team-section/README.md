@@ -1,23 +1,30 @@
-# My First Repository
+# Flexbox Team Section
 
-## About Me
+This folder contains the solution for **Challenge 08: Team Members Section**.
 
-- **Name:** Amayu Kaba
-- **Department:** Information Technology
-- **Year of Study:** 2nd Year
+## Files Included
 
-## Introduction
+- `index.html` — the HTML structure for the team member cards
+- `style.css` — the CSS styling using Flexbox to display the cards in one row
+- `Screenshot 2026-06-17 205435.png` — a screenshot showing the rendered team section
 
-Hello! I'm Amayu Kaba, a passionate 2nd-year Information Technology student excited to learn and grow in the world of technology. I'm enthusiastic about exploring different aspects of IT and developing practical skills that will help me in my future career.
+## What This Project Contains
 
-## What I Want to Learn
+- A responsive team section with **3 cards**
+- Each card includes:
+  - Name
+  - Role
+  - Short description
+- Uses Flexbox properties:
+  - `display: flex`
+  - `justify-content`
+  - `gap`
+  - `padding`
+  - `margin`
+  - `border-radius`
 
-- Web development
-- Software engineering practices
-- Version control with Git and GitHub
-- Modern programming languages and frameworks
-- Collaboration techniques for team projects
+## How to View
 
-## My Goal for the Mentorship
+Open `index.html` in a browser to see the team member section layout.
 
-My main goal for this mentorship is to gain hands-on experience, learn from experienced professionals, and develop strong technical skills. I want to work on real projects, improve my coding abilities, and understand the best practices in software development. I'm committed to making the most of this opportunity and growing both personally and professionally.
+The screenshot file shows the final rendered design for review.
